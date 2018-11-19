@@ -14,11 +14,11 @@
     AliasesToExport   = @()
     PrivateData       = @{
         PSData = @{
-            Tags         = @()
-            LicenseUri   = ''
-            ProjectUri   = ''
-            IconUri      = ''
-            ReleaseNotes = ''
+            Tags         = @('PoshBot', 'Documentation', 'FYI', 'HowTo')
+            LicenseUri   = 'https://raw.githubusercontent.com/poshbotio/PoshBot.FYI/master/LICENSE'
+            ProjectUri   = 'https://github.com/poshbotio/PoshBot.FYI'
+            IconUri      = 'https://raw.githubusercontent.com/poshbotio/PoshBot.FYI/master/media/fyi.jpg'
+            ReleaseNotes = 'https://raw.githubusercontent.com/poshbotio/PoshBot.FYI/master/CHANGELOG.md'
         }
     }
 }
