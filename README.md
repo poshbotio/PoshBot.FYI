@@ -1,5 +1,9 @@
 # PoshBot.FYI
 
+| AppVeyor | PS Gallery | License
+|----------|--------|--------------------|------------|-----------|
+[![AppVeyor Build Status][appveyor-badge]][appveyor-build] | [![PowerShell Gallery][psgallery-badge]][psgallery] | [![License][license-badge]][license]
+
 PoshBot plugin for quick and dirty FYI-type documentation in chat.
 
 <p align="center">
@@ -37,3 +41,10 @@ To search previously entered FYIs, use the `how` command.
 ```
 !how foo module
 ```
+
+[appveyor-badge]: https://ci.appveyor.com/api/projects/status/sq3cliffmny8h81l?svg=true
+[appveyor-build]: https://ci.appveyor.com/project/devblackops/poshbot-fyi
+[psgallery-badge]: https://img.shields.io/powershellgallery/dt/poshbot.fyi.svg
+[psgallery]: https://www.powershellgallery.com/packages/poshbot.fyi
+[license-badge]: https://img.shields.io/github/license/poshbotio/poshbot.fyi.svg
+[license]: https://raw.githubusercontent.com/poshbotio/PoshBot.FYI/master/LICENSE
