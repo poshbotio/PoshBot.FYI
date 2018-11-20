@@ -2,7 +2,12 @@
     PSDependOptions = @{
         Target = 'CurrentUser'
     }
-    Pester           = '4.4.2'
+    Pester           = @{
+        Version = 'latest'
+        Parameters = @{
+            SkipPublisherCheck = $true
+        }
+    }
     psake            = @{
         Parameters = @{
             AllowPreRelease = $true
