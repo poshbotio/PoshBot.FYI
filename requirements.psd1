@@ -4,8 +4,10 @@
     }
     Pester           = '4.4.2'
     psake            = @{
-        Version         = '4.8.0'
-        AllowPreRelease = $true
+        Parameters = @{
+            AllowPreRelease = $true
+            RequiredVersion = '4.8.0-alpha'
+        }
     }
     BuildHelpers     = '2.0.0'
     PowerShellBuild  = '0.2.0'
