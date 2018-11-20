@@ -1,7 +1,7 @@
 # PoshBot.FYI
 
 | AppVeyor | PS Gallery | License
-|----------|--------|--------------------|------------|-----------|
+|----------|------------|---------|
 [![AppVeyor Build Status][appveyor-badge]][appveyor-build] | [![PowerShell Gallery][psgallery-badge]][psgallery] | [![License][license-badge]][license]
 
 PoshBot plugin for quick and dirty FYI-type documentation in chat.
