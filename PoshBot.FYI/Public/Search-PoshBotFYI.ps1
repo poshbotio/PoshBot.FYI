@@ -39,10 +39,10 @@ function Search-PoshBotFYI {
 
     # Return response
     $nl = [Environment]::NewLine
-    $response = "Here is what I found:$nl"
-    $relevantResults.ForEach({
+    $response = @("Here is what I found:$nl")
+    $relevantResults | ForEach-Object {
         $response += '{0}At *{1}* `@{2}` wrote in `#{3}`: {4}' -f $nl, $_.Item.LastUpdated, $_.Item.AddedBy, $_.Item.Channel, $_.Item.FYI
-    })
+    }
     $text = $response -join $nl
     Write-Output $text
 }
